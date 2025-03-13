@@ -1,0 +1,5 @@
+The area located within the specified coordinates ([121.175269, 31.117354] - [121.195893, 31.135686]) is characterized by a mix of industrial, residential, and commercial functions. A significant portion of the POIs are company enterprises, including factories, manufacturing, and technology-related companies. This suggests the presence of an industrial or manufacturing zone.
+
+Supporting the industrial function, there is transportation infrastructure, including bus stops and parking lots. The area also contains residential elements, such as residential communities.
+
+The commercial aspect is represented by a variety of services, including restaurants, supermarkets, convenience stores, and home/building material shops. Additionally, public services such as healthcare facilities, government agencies, and educational institutions are present.

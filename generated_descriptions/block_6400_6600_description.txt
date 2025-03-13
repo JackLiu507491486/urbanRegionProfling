@@ -1,0 +1,5 @@
+The area within the specified coordinates in Shanghai exhibits characteristics of a mixed-use zone, primarily featuring industrial, commercial, and residential elements. A significant number of POIs are categorized as company enterprises, encompassing factories, trading companies, and various manufacturing businesses, indicating a strong industrial presence. Several industrial parks also exist.
+
+The area also contains commercial functions reflected in the presence of supermarkets, convenience stores, home building material shops, restaurants, hotels and logistic companies. Public transportation is supported by a network of bus stops. Services include car-related service.
+
+Furthermore, there are residential elements such as apartments, kindergartens and nursing homes.

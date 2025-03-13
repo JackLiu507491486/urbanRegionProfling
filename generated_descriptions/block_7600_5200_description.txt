@@ -1,0 +1,7 @@
+The area, located within the specified coordinates, exhibits a mixed-use character with a focus on residential, commercial, transportation, and light industrial activities.
+
+Transportation infrastructure is well-represented with numerous bus stops, a subway station, and various parking facilities including public, roadside, and dedicated parking lots.
+
+The area contains many residential complexes, including apartments, residential communities, and villas. Commercial activity is indicated by a variety of POIs including shopping centers, supermarkets, convenience stores, specialty shops, restaurants, hotels and entertainment venues (cinemas, KTVs, bars). Several companies are also located here.
+
+Furthermore, the area includes educational institutions such as schools and training centers. Healthcare facilities, including a community health center and pharmacies, are also present. These functions are distributed throughout the area, suggesting a mixed-use urban environment.

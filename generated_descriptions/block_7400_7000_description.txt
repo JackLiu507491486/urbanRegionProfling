@@ -1,0 +1,11 @@
+The area bounded by the coordinates [121.639134, 30.942650] - [121.659814, 30.960910] is characterized by a mix of industrial, commercial, residential, and recreational functions. A significant number of POIs are related to **industrial activities**, particularly companies and factories involved in furniture manufacturing, wood processing, metal products, and garment production.
+
+The area also features a substantial **commercial sector**, including a variety of retail stores (clothing, electronics, furniture, building materials), supermarkets, convenience stores, and a farmers market. The presence of numerous restaurants and hotels/lodging establishments indicates a service-oriented commercial function.
+
+**Residential areas** are represented by apartment complexes and residential communities.
+
+**Transportation infrastructure** is evident through the presence of bus stops and parking lots.
+
+**Recreational facilities** include KTVs, billiards halls, fishing spots and elderly care facilities.
+
+The area also has government institutions, medical facilities, educational institutions and financial institutions.
