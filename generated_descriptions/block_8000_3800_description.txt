@@ -1,7 +1,0 @@
-The area, defined by the coordinates [121.305218, 30.884574] - [121.325819, 30.902885] and containing 1031 POIs, exhibits mixed urban characteristics. A significant number of POIs are related to transportation, including bus stations, a long-distance bus station, and numerous parking lots, suggesting a transportation hub or a well-connected area. The presence of various lodging options, ranging from budget-friendly hostels to hotels, indicates accommodation services.
-
-The area also includes a mix of commercial and industrial functions. A substantial number of company/factory POIs exist alongside shopping services, such as supermarkets, convenience stores, specialized shops (clothing, electronics, home goods), and markets, pointing to both manufacturing and retail activities.
-
-Additionally, the area contains a range of service-oriented POIs, including healthcare facilities (hospital, clinics, pharmacies), government and public service entities (town government, police station), and lifestyle services (beauty salons, logistics companies, real estate agencies). This suggests a comprehensive service provision for the local population.
-
-The spatial layout appears mixed, with transportation nodes, commercial areas, residential zones, and industrial sites coexisting within the defined coordinates.

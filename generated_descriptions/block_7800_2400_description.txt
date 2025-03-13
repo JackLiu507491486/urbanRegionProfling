@@ -1,9 +1,0 @@
-The area within the specified coordinates exhibits a mixed-use character. A significant number of POIs are dedicated to residential functions, including numerous named residential areas (e.g., 凤翔新村, 钟楼新村, 珠溪苑) and associated residential services. Public transportation is supported by multiple bus stops (e.g., 人民路, 税务所, 红菱苑) and parking facilities (路边停车场, 公共停车场).
-
-The area also contains a variety of commercial activities, including retail (e.g., 吉买盛, 农工商超市, 罗森便利店), home improvement and construction material suppliers (e.g., 三棵树漆, 安华卫浴, 欧普照明), and automotive services (e.g., 途虎养车, 星星充电汽车充电站).
-
-Furthermore, the area includes government and public service facilities such as 金山区民政局婚姻登记处, 朱泾镇人民政府, and various tax offices. Several companies and factories are also present.
-
-Recreational facilities are represented by健身中心, 棋牌室 and 采摘园. Educational resources include 金山区第一实验小学, 上海市罗星中学(西区), and 金山区青少年活动中心. Healthcare services are provided by 口腔医院 and 药房.
-
-Overall, the POI distribution suggests a developed area with residential, commercial, governmental, educational, and recreational functions.

@@ -1,9 +1,0 @@
-The area, defined by coordinates [121.338264, 31.390193] - [121.358977, 31.408501], exhibits a mixed-use character with a focus on residential, commercial, and recreational functions. Transportation infrastructure is well-developed, evidenced by the presence of two subway stations ("美兰湖(地铁站)", "罗南新村(地铁站)"), numerous bus stops, a passenger transport station ("上海美兰湖客运站") and a high volume of parking facilities.
-
-Residential areas are represented by a variety of housing types, including apartments, villas, and residential complexes.
-
-Commercial activity is significant, featuring a shopping center ("宝山宝龙城市广场"), supermarkets, convenience stores, and various retail shops selling diverse goods and services including food, clothing, home improvement materials, and automotive services.
-
-Recreational amenities are also prevalent, including a conference center ("美兰湖国际会议中心"), hotels, entertainment venues such as movie theaters, bars, KTVs, and recreational facilities such as golf clubs and fitness centers. Additionally, there are several parks ("美兰湖人口文化园", "诺贝尔科技公园") and a lake ("美兰湖景区").
-
-The area also includes public services such as hospitals, government offices, schools, and cultural centers.

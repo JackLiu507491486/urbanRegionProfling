@@ -1,5 +1,0 @@
-The area, defined by the provided coordinates and POI data, exhibits a mixed-use character with a high density of points of interest. A significant portion of the POIs relates to transportation, including numerous bus stops and parking facilities, suggesting a well-connected and accessible area. There's a notable presence of residential areas ("住宅区" and "住宅小区"), alongside service facilities such as healthcare (药房，卫生院，口腔医院) and education (幼儿园，小学，中学，高等院校).
-
-A large number of POIs fall under the categories of "购物服务" and "餐饮服务", indicating a vibrant commercial sector. The area includes a significant number of companies and enterprises, with a focus on the "公司企业" and "公司" categories, many of which are related to the "水产海鲜市场" and general food industry. This suggests the presence of a specialized commercial hub, potentially centered around the "东方国际水产中心."
-
-In addition, there are a moderate number of POIs categorized as "体育休闲服务", encompassing diverse facilities such as "运动场馆", "娱乐场所", and "度假疗养场所", indicating recreational and leisure functions within the area. Government and public institutions are also present, represented by POIs related to "政府机关" and "社会团体".

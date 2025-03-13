@@ -1,9 +1,0 @@
-The area is characterized by a mix of industrial, commercial, residential, and institutional functions, with a strong focus on the medical and pharmaceutical industries. Evidenced by the high number of "公司企业" POIs with a bias towards the "医药公司" category.
-
-Key features include:
-
-*   **Industrial/Commercial Zone:** A high concentration of companies, particularly in the medical and pharmaceutical sectors, suggesting an industry-focused area. It also contains industrial support infrastructure such as "工厂". There are also multiple logistics and express delivery service points.
-*   **Residential Area:** Presence of residential complexes ("住宅小区", "宿舍") and apartment buildings, indicating a residential component.
-*   **Service Industry:** Includes hotels ("四星级宾馆", "宾馆酒店"), and supporting facilities (KTV, swimming pool, etc.) as well as a number of parking lots and public transportation.
-*   **Institutional Presence:** Evidenced by medical testing institutions and government/community administration offices. Also contains "产业园区"
-*   **Transportation Infrastructure:** Multiple bus stops and parking lots are present, suggesting moderate access to public and private transportation.

@@ -1,7 +1,0 @@
-The area located within the specified coordinates is characterized by a mixed-use environment. A significant portion of the POIs are related to industrial and commercial activities, evidenced by the high number of "公司企业" (Companies) and "工厂" (Factories). These companies represent diverse sectors including manufacturing, technology, trading, and construction.
-
-Transportation infrastructure is also prominent, with numerous "公交车站" (Bus stops) and "停车场" (Parking lots), indicating a focus on accessibility and logistics.
-
-Residential elements are present in the form of "住宅区" (Residential areas) and "社区中心" (Community centers).
-
-Limited recreational facilities exist, including "休闲场所" (Leisure places) and "棋牌室" (Chess rooms). Basic services such as "公共厕所" (Public toilets), "医疗保健服务" (Healthcare services), "汽车服务" (Automobile service) and "生活服务" (Life Service) are distributed throughout the area. Shopping is primarily supported by "便民商店/便利店" (Convenience stores) and "家居建材市场" (Home building materials market). A variety of restaurants are present throughout the area as well.
