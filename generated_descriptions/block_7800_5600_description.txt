@@ -1,7 +1,0 @@
-The area within the specified coordinates is characterized by a mixed-use urban environment. A significant concentration of POIs is related to **transportation infrastructure**, with numerous bus stops and parking facilities distributed throughout the area. This suggests a focus on vehicular and public transit accessibility.
-
-The area also presents a substantial **commercial sector**, indicated by a high volume of companies, factories, and diverse retail establishments. These include home furnishing and building materials, various retail shops (clothing, shoes, electronics), supermarkets, convenience stores, and specialized stores.
-
-In addition, the area provides a range of **services**, such as accommodation (hotels, guesthouses), healthcare (hospital, clinics, pharmacies), education (schools, training centers), and various life services (hair salons, photography, repair shops, logistics services).
-
-The spatial layout exhibits a mix of functions, incorporating industrial, commercial, residential, and public service elements.

@@ -1,5 +1,0 @@
-The area defined by the provided coordinates exhibits a mixed-use character. A significant number of POIs are related to **industrial activities**, including factories and various manufacturing companies spanning sectors like clothing, packaging, machinery, and metal products. This suggests an **industrial presence**.
-
-Alongside the industrial sector, the area also contains a substantial number of **commercial entities**, including various companies, shops (e.g., supermarkets, convenience stores, building material stores, and automotive parts retailers), and restaurants. This indicates a blend of **commercial and retail functions**.
-
-Furthermore, there's evidence of **residential areas**, with several identified residential complexes. This mixed-use area is supported by **transportation infrastructure** reflected in the presence of bus stops and parking lots. There are also several government and public service facilities. In summary, the area presents as a mixed industrial, commercial, and residential zone supported by necessary infrastructure.

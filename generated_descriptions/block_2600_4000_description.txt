@@ -1,5 +1,0 @@
-The area within the specified coordinates exhibits a mixed land use pattern. A significant portion of the area is dedicated to agricultural activities, specifically fruit cultivation, as evidenced by the numerous "葡萄园" (grape vineyard) and "果园" (orchard) POIs. Supporting this agricultural function are related "农林牧渔基地" (agricultural base) companies.
-
-In addition to agriculture, the area includes industrial activity, indicated by the presence of multiple "工厂" (factory) and various "公司企业" (companies). Residential areas are also present, as shown by the "住宅小区" (residential district) POIs, alongside community service facilities such as "社区中心" (community center) and "社区卫生服务站" (community health service station).
-
-Transportation infrastructure is represented by numerous "公交车站" (bus station) and "停车场" (parking lot) POIs. Basic amenities are provided by a large number of "公共厕所" (public restroom) POIs. Commercial activities are indicated by "便民商店/便利店" (convenience store) and "超市" (supermarket) POIs, as well as "餐饮服务" (catering) and "购物服务" (shopping) POIs.

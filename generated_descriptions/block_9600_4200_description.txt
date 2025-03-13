@@ -1,5 +1,0 @@
-The area defined by the provided coordinates is characterized by a mixed land use, primarily focused on industrial and commercial activities. A significant portion of the POIs are categorized as "公司企业 > 公司," indicating a strong presence of various companies involved in manufacturing, trade, technology, and construction. This is further supported by the presence of "工厂" and "冶金化工" companies.
-
-In addition to the industrial component, there is a notable presence of commercial establishments, including "购物服务 > 家居建材市场," "餐饮服务," and "生活服务" related POIs. This suggests a localized commercial sector catering to the needs of the resident workforce and potentially nearby residential areas.
-
-The spatial layout appears to be mixed, with industrial and commercial activities interspersed with some residential elements like "商务住宅 > 住宅区 > 别墅" and community facilities such as "商务住宅 > 住宅区 > 社区中心." Transportation infrastructure is supported by "汽车服务 > 加油站" and "汽车服务 > 加气站." There are also some sport and leisure facilities. Overall, the area functions as a mixed industrial and commercial zone with supporting amenities.

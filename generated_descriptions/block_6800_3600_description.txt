@@ -1,7 +1,0 @@
-The area, located within the specified coordinates, is characterized by a mix of industrial, commercial, and residential functions. A significant number of POIs are categorized as "公司企业" (Companies), including factories, manufacturing, technology and trading companies, suggesting a strong industrial presence. This is further supported by the presence of multiple "产业园区" (Industrial Parks).
-
-Transportation infrastructure is evident, with a "长途汽车站" (Long-distance Bus Station) and numerous "公交车站" (Bus Stops), along with various types of "停车场" (Parking Lots). The area also includes a notable number of "物流速递" (Logistics) services, indicating logistical and distribution activities.
-
-Commercial activity is represented by "便民商店/便利店" (Convenience Stores), "超市" (Supermarkets), and "餐饮服务" (Food and Beverage Services), with a range of "中餐厅" (Chinese Restaurants), providing local services for the workers and residents.
-
-Residential areas, including "公寓" (Apartments) and "住宅小区" (Residential Districts), are also present, alongside government and public facilities like "村委会" (Village Committees), "公共厕所" (Public Toilets), and a "消防中队" (Fire Brigade).

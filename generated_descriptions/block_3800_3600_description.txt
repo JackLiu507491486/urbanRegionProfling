@@ -1,5 +1,0 @@
-The area, defined by the coordinates [121.277485, 31.263098] - [121.298159, 31.281415] and containing 1090 POIs, exhibits mixed land use characteristics. A significant portion of the area is dedicated to transportation infrastructure, including a subway station, multiple bus stops, a long-distance bus station, and numerous parking lots (both roadside and public).
-
-The area also features a substantial presence of commercial and industrial activities, evidenced by a high number of companies and factories spanning various sectors such as manufacturing, metalwork, and advertising. Residential areas are also present, with apartment complexes, residential communities, and hotels/guest houses.
-
-Furthermore, the area includes services related to daily life such as various restaurants, grocery stores, auto services, repair shops, and beauty salons, suggesting a well-developed infrastructure.
