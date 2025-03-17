@@ -6,6 +6,8 @@ from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 import clip
 import torch.optim as optim
+import re
+import csv
 
 # 自定义数据集类
 class ShanghaiSatDataset(Dataset):
@@ -15,13 +17,22 @@ class ShanghaiSatDataset(Dataset):
         self.transform = transform
 
         # 获取所有图像和文本文件的路径
-        self.image_files = sorted([f for f in os.listdir(image_dir) if f.endswith(".tif")])
-        self.text_files = sorted([f for f in os.listdir(text_dir) if f.endswith(".txt")])
+        self.image_files = sorted(
+            [f for f in os.listdir(image_dir) if f.endswith(".tif")],
+            key=lambda x: [int(num) if num.isdigit() else num for num in re.findall(r'\d+|\D+', x)]
+        )
+        self.text_files = sorted(
+            [f for f in os.listdir(text_dir) if f.endswith(".txt")],
+            key=lambda x: [int(num) if num.isdigit() else num for num in re.findall(r'\d+|\D+', x)]
+        )
 
         # 确保图像和文本文件一一对应
         assert len(self.image_files) == len(self.text_files), "图像和文本文件数量不匹配"
         for img, txt in zip(self.image_files, self.text_files):
-            assert img.replace(".tif", "") == txt.replace("_description.txt", ""), "图像和文本文件不匹配"
+            # 打印文件名以调试
+            print(f"Image: {img}, Text: {txt}")
+            # 检查文件名前缀是否一致
+            assert img.split(".")[0] == txt.split("_description")[0], f"图像和文本文件不匹配: {img} vs {txt}"
 
         # 随机划分训练集和测试集
         random.seed(42)  # 固定随机种子
@@ -44,6 +55,7 @@ class ShanghaiSatDataset(Dataset):
         txt_path = os.path.join(self.text_dir, self.text_files[self.indices[idx]])
         with open(txt_path, "r", encoding="utf-8") as f:
             text = f.read().strip()
+
 
         # 图像预处理
         if self.transform:
@@ -80,6 +92,13 @@ test_dataloader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 # 加载 CLIP 模型
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, _ = clip.load("ViT-B/32", device=device)
+model.float()
+
+
+
+# 记录训练和验证损失
+train_losses = []
+val_losses = []
 
 # 损失函数
 def contrastive_loss(logits_per_image, logits_per_text):
@@ -88,21 +107,25 @@ def contrastive_loss(logits_per_image, logits_per_text):
     loss_text = torch.nn.CrossEntropyLoss()(logits_per_text, labels)
     return (loss_image + loss_text) / 2
 
+
 # 优化器
-optimizer = optim.AdamW(model.parameters(), lr=5e-5, weight_decay=0.01)
+optimizer = optim.AdamW(model.parameters(), lr=1e-5, weight_decay=0.01)
 
 # 训练循环
 for epoch in range(10):  # 训练 10 个 epoch
     model.train()
+
     for images, texts in train_dataloader:
         images = images.to(device)
-        texts = clip.tokenize(texts).to(device)  # 将文本转换为 token
+        texts = clip.tokenize(texts, truncate=True).to(device)
+
 
         # 前向传播
         logits_per_image, logits_per_text = model(images, texts)
 
         # 计算损失
         loss = contrastive_loss(logits_per_image, logits_per_text)
+
 
         # 反向传播
         optimizer.zero_grad()
@@ -111,6 +134,17 @@ for epoch in range(10):  # 训练 10 个 epoch
 
         # 打印损失
         print(f"Epoch [{epoch+1}/10], Loss: {loss.item():.4f}")
+        train_losses.append(loss.item())
+
+
+#保存为 CSV 文件
+with open("train_loss.csv", "w", newline="") as f:
+    writer = csv.writer(f)
+    writer.writerow(["Epoch", "Loss"])
+    for i, loss in enumerate(train_losses):
+        writer.writerow([i + 1, loss])
+
+
 
 # 保存模型
 torch.save(model.state_dict(), "clip_model.pth")
@@ -122,7 +156,8 @@ val_loss = 0.0
 with torch.no_grad():
     for images, texts in test_dataloader:
         images = images.to(device)
-        texts = clip.tokenize(texts).to(device)
+        texts = clip.tokenize(texts, truncate=True).to(device)
+
 
         # 前向传播
         logits_per_image, logits_per_text = model(images, texts)
