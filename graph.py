@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # 读取 CSV 文件
-csv_file = "train_loss.csv"  # 替换为你的 CSV 文件路径
+csv_file = "mlp_light_train_loss.csv"  # 替换为你的 CSV 文件路径
 df = pd.read_csv(csv_file)
 
 # 查看数据结构，确保你有 'batch' 和 'loss' 两列

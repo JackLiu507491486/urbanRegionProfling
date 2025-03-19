@@ -88,7 +88,6 @@ test_dataset = ShanghaiSatDataset(
 # 创建数据加载器
 train_dataloader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 test_dataloader = DataLoader(test_dataset, batch_size=32, shuffle=False)
-
 # 加载 CLIP 模型
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model, _ = clip.load("ViT-B/32", device=device)
@@ -110,6 +109,7 @@ def contrastive_loss(logits_per_image, logits_per_text):
 
 # 优化器
 optimizer = optim.AdamW(model.parameters(), lr=1e-5, weight_decay=0.01)
+torch.cuda.empty_cache()
 
 # 训练循环
 for epoch in range(10):  # 训练 10 个 epoch
@@ -147,7 +147,7 @@ with open("train_loss.csv", "w", newline="") as f:
 
 
 # 保存模型
-torch.save(model.state_dict(), "clip_model.pth")
+torch.save(model.state_dict(), "clip_model_Summary.pth")
 
 # 验证
 model.eval()
